@@ -8,8 +8,6 @@ public $nPosti;
 public function __construct( $nameF,  $nPosti ) {
     $this->nameF = $nameF;
     $this->nPosti = $nPosti;
-    $this->orario = $orario;
-    $this->Room = $Room;
 }
 
 public function getnameF(string $nameF){
